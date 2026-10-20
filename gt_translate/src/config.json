@@ -1,0 +1,10 @@
+{
+  "api_key": "",
+  "filename_input": "/home/lolzs/proj/proj/cpp/parser/ru.po",
+  "filename_json": "/home/lolzs/proj/proj/cpp/parser/ru.json",
+  "filename_output": "/home/lolzs/proj/proj/cpp/parser/out.po",
+  "model_name": "gemini-3.5-flash-lite",
+  "promt": "Переведи слова/словосочетания на [украинский] язык. Выводи ТОЛЬКО переводы по порядку, разделяя их строго символом \"`\". В переводе должно быть столько же слов как и в изначальном промте.  Без пояснений и лишнего текста.Формат: перевод1`перевод2`перевод3. текст для перевода",
+  "text_delim": "`",
+  "temperature": 0
+}
