@@ -1,1 +1,3 @@
 I tried to build an architecturally sound application—though I’m not sure how "correct" it actually is—but I really enjoyed the process. I know there are plenty of bugs, given that I put it together in just three days. Most importantly, it doesn't rely on AI. To use it, you’ll need to generate a Gemini API key and enter it into the configuration file.
+
+make: /usr/bin/g++ -fdiagnostics-color=always -g main.cpp -lgettextpo -lcurl -std=c++26 -fsanitize=address,undefined,leak
